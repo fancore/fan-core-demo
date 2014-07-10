@@ -1,5 +1,12 @@
+<%@ page pageEncoding="UTF-8" %>
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
+  <head>
+    <title>demo welcome</title>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css" />
+  </head>
+  <body>
+    <div id="main" align="center">
+      <a href="json-demo.jsp" target="_blank">json demo</a><br>
+    </div>
+  </body>
 </html>
