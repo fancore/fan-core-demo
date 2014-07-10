@@ -4,8 +4,8 @@
   <groupId>fan.core</groupId>
   <artifactId>fan-core-demo</artifactId>
   <packaging>war</packaging>
-  <version>0.1.0.GA</version>
-  <name>fan-core-demo-0.1.0.GA</name>
+  <version>0.2.0.GA</version>
+  <name>fan-core-demo-0.2.0.GA</name>
   <url>http://maven.apache.org</url>
   <properties>
     <web-info>src/main/webapp/WEB-INF</web-info>
@@ -13,11 +13,21 @@
   </properties>
   <dependencies>
     <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+    </dependency>
+    <dependency>     
+      <groupId>javax.servlet</groupId>     
+      <artifactId>servlet-api</artifactId>     
+      <version>2.5</version> 
+    </dependency>
+    <dependency>
       <groupId>fan-core</groupId>
       <artifactId>util</artifactId>
       <version>1.0.0</version>
       <scope>system</scope>
-      <systemPath>${basedir}/${web-info}/lib/fan-core-0.1.0.GA.jar</systemPath>
+      <systemPath>${basedir}/${web-info}/lib/fan-core-0.2.0.GA.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
