@@ -13,6 +13,13 @@
   </properties>
   <dependencies>
     <dependency>
+      <groupId>fan-core</groupId>
+      <artifactId>util</artifactId>
+      <version>1.0.0</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/${web-info}/lib/fan-core-0.1.0.GA.jar</systemPath>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.7</version>
@@ -42,6 +49,7 @@
           <compilerArguments> 
             <extdirs>${web-info}/lib</extdirs>
           </compilerArguments>
+          <skip>true</skip>
         </configuration>
       </plugin>
       <plugin>
